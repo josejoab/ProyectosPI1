@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'PI1taller1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pi1bd',                     
+        'USER': 'root',                     
+        'PASSWORD': 'espartannoble117',                  
+        'HOST': 'localhost',                     
+        'PORT': '3306',
     }
 }
 

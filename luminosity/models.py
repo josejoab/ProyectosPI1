@@ -8,3 +8,10 @@ class Luminosity(models.Model):
     value = models.IntegerField(verbose_name='Valor')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+
+class Participante(models.Model):
+    cedula = models.IntegerField(verbose_name='cedula')
+    nombre = models.CharField(max_length = 30)
+    actividad = models.CharField(max_length = 30)
+    estrato = models.IntegerField(verbose_name='estrato')
+    
