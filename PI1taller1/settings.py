@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'PI1taller1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pi1bd',                     
-        'USER': 'root',                     
-        'PASSWORD': 'espartannoble117',                  
-        'HOST': 'localhost',                     
+        'NAME': 'grupoevergreensquema',                     
+        'USER': 'jjromeroh@servergrupoevergreen2',                     
+        'PASSWORD': 'ovtOHK23',                  
+        'HOST': 'servergrupoevergreen2.mysql.database.azure.com',                     
         'PORT': '3306',
     }
 }
