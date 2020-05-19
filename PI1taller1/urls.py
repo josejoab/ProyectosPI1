@@ -21,6 +21,7 @@ from luminosity import views
 
 router = routers.DefaultRouter()
 router.register(r'luminosity', views.LuminosityViewSet)
+router.register(r'participante', views.ParticipanteViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
